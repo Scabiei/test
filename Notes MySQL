@@ -1,0 +1,13 @@
+SELECT * FROM ' ' LIMIT 10	Tout sélectionner de la table et afficher 10 max
+trier : ORDER BY 	(ASC est par défaut)
+
+Afficher le nombre de `firstname` distincts dans `la_table` :
+SELECT COUNT(DISTINCT`firstName`) AS skonveutcommenom FROM `la_table`;
+
+
+
+SELECT `productCode`,`productScale` FROM `products` WHERE `productScale` IN ('1:10',"1:18") ORDER BY `quantityInStock` DESC 
+
+SELECT *
+FROM utilisateur
+WHERE id NOT BETWEEN 4 AND 10
